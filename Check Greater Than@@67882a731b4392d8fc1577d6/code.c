@@ -9,6 +9,6 @@ void main(){
         printf("False");
     }
     else{
-        printf("Both numbers are equal");
+        printf("False");
     }
 }
