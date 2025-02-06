@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main({
+void main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
@@ -11,4 +11,4 @@ void main({
     else{
         printf("Both numbers are equal");
     }
-})
+}
