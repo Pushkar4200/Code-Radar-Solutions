@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
     int a;
-    scanf("%d,&a");
+    scanf("%d",&a);
     switch(a){
         case 1:
         printf("31");
@@ -39,8 +39,8 @@ void main(){
         case 8:
         printf("30");
         break;
-    default:
-    printf("Enter valid number");
-    break;
+        default:
+        printf("Enter valid number");
+        break;
     }
 }
