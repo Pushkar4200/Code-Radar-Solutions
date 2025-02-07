@@ -9,7 +9,7 @@ void main(){
     else if(c<0){
         printf("Loss\n");
     }
-    else[
+    else{
         printf("No Loss\n");
-    ]
+    }
 }
