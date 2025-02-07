@@ -41,5 +41,6 @@ void main(){
         break;
     default:
     printf("Enter valid number");
+    break;
     }
 }
