@@ -49,7 +49,7 @@ int main() {
             }
             break;
         default:
-            printf("Error: Invalid operator\n");
+            printf("error\n");
     }
     return 0;
 }
