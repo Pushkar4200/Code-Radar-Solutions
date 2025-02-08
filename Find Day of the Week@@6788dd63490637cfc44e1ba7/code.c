@@ -14,7 +14,7 @@ void main(){
             break;
         case 4:
             printf("Thursday");
-            break
+            break;
         case 5:
             printf("Friday");
             break;
