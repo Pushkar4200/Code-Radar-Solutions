@@ -2,7 +2,7 @@
 void main(){
     int a,b;
     char rt;
-    scanf("%d%d%c",&a,&b,&rt);
+    scanf("%d%d%c", &a, &b, &rt);
     switch(rt){
         case '+':
             printf("%d\n",a+b);
@@ -20,5 +20,4 @@ void main(){
             printf("wrong");
             break;
     }
-    
 }
