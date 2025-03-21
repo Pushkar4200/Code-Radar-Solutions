@@ -1,5 +1,5 @@
 #include<stdio.h>
-int PrimesInRange(int a,int b){
+int printPrimesInRange(int a,int b){
     for(int j=2;j<b;j++){
     for(int i=a;i<b;i++){
         if(i%j!=0){
