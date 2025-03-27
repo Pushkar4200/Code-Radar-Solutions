@@ -6,6 +6,6 @@ int fact(int j){
 int factorialRange(int star,int end){
                for(int i=star;i<=end;i++){
                 int gt=fact(i);
-                printf("%d",gt);
+                printf("%d\n",gt);
                }
 }
