@@ -1,3 +1,4 @@
+#incude<stdio.h>
 int fact(int j){
         if(j==0 || j==1){
             return j;
