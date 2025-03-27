@@ -4,12 +4,12 @@ int fact(int j){
             fac=fac*i;
         }return fac;}
 int factorialRange(int star,int end){
-    if(star>0 && end>0){
+    if(star<0 && end<0){
+               printf("Invalid range");
+               else{
                for(int i=star;i<=end;i++){
                 int gt=fact(i);
                 printf("%d\n",gt);
                }}
-               else{
-                printf("Invalid Range");
                }
-}
+} 
