@@ -1,13 +1,11 @@
+int fact(int j){
+        int fac=1;
+        for(int i=1;i<n;i++){
+            fac=fac*i;
+        }return fact;}
 int factorialRange(int star,int end){
                for(int i=star;i<=end;i++){
-                printf("%d",fact(i));
+                gt=fact(i);
+                printf("%d",gt);
                }
 }
-int fact(int j){
-        if(j==0 || j==1){
-            return j;
-        }
-        else{
-            return j*fact(j%10);
-        }
-    }
