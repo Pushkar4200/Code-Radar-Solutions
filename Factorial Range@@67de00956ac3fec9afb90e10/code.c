@@ -5,7 +5,7 @@ int fact(int j){
         }return fac;}
 int factorialRange(int star,int end){
                for(int i=star;i<=end;i++){
-                gt=fact(i);
+                int gt=fact(i);
                 printf("%d",gt);
                }
 }
