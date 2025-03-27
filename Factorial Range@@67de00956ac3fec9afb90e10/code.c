@@ -1,6 +1,6 @@
 int fact(int j){
         int fac=1;
-        for(int i=1;i<j;i++){
+        for(int i=1;i<=j;i++){
             fac=fac*i;
         }return fac;}
 int factorialRange(int star,int end){
