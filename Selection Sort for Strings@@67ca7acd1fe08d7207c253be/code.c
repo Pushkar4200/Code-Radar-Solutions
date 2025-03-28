@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<string.h>
 void selectionSort(char arr[][20],int n){
     char temp[18];
     for(int i=0;i<n-1;i++){
