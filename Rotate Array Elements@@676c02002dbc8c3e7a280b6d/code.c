@@ -12,7 +12,7 @@ void main(){
     for(int i=re;i<=n;i++){
         printf("%d\n",arr[i]);
     }
-    for(int i=1;i<re;i++){
+    for(int i=0;i<re;i++){
         printf("%d\n",arr[i]);
     }
 }
