@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void insertionArray(char arr[][34],int n){
+void insertionSort(char arr[][34],int n){
     char temp[34];
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
@@ -12,7 +12,7 @@ void insertionArray(char arr[][34],int n){
         }
     }
 }
-void printArray(char arr[][32],int a){
+void printArray(char arr[][34],int a){
     for(int i=0;i<a;i++){
         printf("%s ",arr[i]);
     }
