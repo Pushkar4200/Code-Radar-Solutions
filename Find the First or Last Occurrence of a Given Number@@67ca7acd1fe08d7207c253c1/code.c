@@ -1,4 +1,4 @@
-void findOccurance(int arr[],int h,int y,char q){
+void findOccurance(int arr[],int n,int y,char q){
         if(q=='F'){
             for(int i=0;i<n;i++){
             if(arr[i]==y){
