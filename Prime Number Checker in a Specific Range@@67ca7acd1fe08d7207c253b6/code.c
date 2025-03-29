@@ -4,7 +4,7 @@ int isre(int num){
         return 0;
     }
     for(int o=2;o*o<num;o++){
-        if i%o==0{
+        if num%o==0{
             return 0;
         }
     }return 1;
