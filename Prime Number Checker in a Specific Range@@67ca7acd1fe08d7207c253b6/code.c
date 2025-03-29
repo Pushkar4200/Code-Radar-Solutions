@@ -10,7 +10,7 @@ int isre(int num){
     }return 1;
 }
 int printPrimesInRange(int a,int b){
-    int found=0
+    int found=0;
      for(int i=a;i<b;i++){
             if(isre(i)){
                printf("%d ",i);
