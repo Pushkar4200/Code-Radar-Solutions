@@ -8,7 +8,7 @@ void main(){
     }
     int r;
     scanf("%d",&r);
-    int re=n-r;
+    int re=(n-r);
     for(int i=re;i<=n;i++){
         printf("%d\n",arr[i]);
     }
