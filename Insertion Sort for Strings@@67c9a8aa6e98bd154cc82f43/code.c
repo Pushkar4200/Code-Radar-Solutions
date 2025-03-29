@@ -7,7 +7,7 @@ void insertionArray(char arr[][34],int n){
             if(strcmp(arr[j],arr[j+1])>0){
                 strcpy(temp,arr[j]);
                 strcpy(arr[j],arr[j+1]);
-                strcpy(arr[j+1]temp);
+                strcpy(arr[j+1],temp);
             }
         }
     }
