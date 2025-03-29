@@ -4,7 +4,7 @@ int fibonacciSeries(int n){
     for(int i=0;i<n;i++){
         int temp=a;
         a=b;
-        b=temp;
+        b+=temp;
         printf("%d ",a);
     }
     }
