@@ -11,7 +11,7 @@ int isre(int num){
 }
 int printPrimesInRange(int a,int b){
     int found=0;
-     for(int i=a;i<b;i++){
+     for(int i=a;i<=b;i++){
             if(isre(i)){
                printf("%d ",i);
                found=1;
