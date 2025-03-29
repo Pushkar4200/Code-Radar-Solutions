@@ -3,6 +3,6 @@ int fibonacciSeries(int n){
     
     for(int i=0;i<n;i++){
         a=a+i;
-        printf("%d ",b);
+        printf("%d ",a);
     }
     }
