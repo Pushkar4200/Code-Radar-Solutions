@@ -1,13 +1,18 @@
 #include<stdio.h>
+int isre(int num){
+    if(num<=1){
+        return 0;
+    }
+    for(int o=2;o*o<num;o++){
+        if i%o==0{
+            return 0;
+        }
+    }return 1;
+}
 int printPrimesInRange(int a,int b){
      for(int i=a;i<b;i++){
-        for(int j=2;j*j<=b;j++){
-            if (i%j==0){
-                continue;
-            }
-            else{
-                printf("%d ",i);
+            if(isre){
+               printf("%d ",i)
             }
         }
      }
-        }
