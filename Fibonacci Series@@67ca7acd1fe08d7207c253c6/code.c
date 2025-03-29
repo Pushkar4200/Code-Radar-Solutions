@@ -1,13 +1,8 @@
-int gt(int h){
-    if(h==0 || h==1){
-        return 1;
-    }
-    else{
-        return h+gt(h-1);
-    }
-}
 int fibonacciSeries(int n){
-    int res=gt(n);
-    printf("%d ",res);
+    int a=0,b=1;
+    for(int i=0;i<n;i++){
+        a,b=b,a+b;
+        printf("%d ",a);
+    }
 
 }
