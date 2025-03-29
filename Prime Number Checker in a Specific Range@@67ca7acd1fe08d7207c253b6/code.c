@@ -1,10 +1,13 @@
 #include<stdio.h>
 int printPrimesInRange(int a,int b){
-    for(int j=2;j<b;j++){
-    for(int i=a;i<b;i++){
-        if(i%j!=0){
-            printf("%d ",i);
+     for(int i=a;i<b;i++){
+        for(int j=2;j<b;j++){
+            if (i%y==0){
+                return 1;
+            }
+            else{
+                return 0;
+            }
         }
-    }
-    }
-}
+     }
+        }
