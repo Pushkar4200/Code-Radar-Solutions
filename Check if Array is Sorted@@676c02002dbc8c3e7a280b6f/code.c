@@ -24,10 +24,13 @@ void main(){
     int siu=0;
     for(int i=0;i<n;i++){
         if(arr[i]!=tem[i]){
-            printf("Not Sorted");
+           siu=0;
         }
-        else{
-            printf("Sorted\n");
-        }
+    }siu=1;
+    if(siu=='0'){
+        printf("Not Sorted\n");
     }
-}
+    else
+}[
+    printf("Sorted\n");
+]
