@@ -10,5 +10,5 @@ int main(){
             if(arr[i]<=arr[i+1]>arr[i+1]){
                 return arr[i+1];
             }
-    }return -1;
+    }
 }
