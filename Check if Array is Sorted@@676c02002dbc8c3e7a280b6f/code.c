@@ -17,13 +17,17 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int tem[i];
-    arr[i]=tem[i];
+    int tem[n];
+    for(int i=0;i<n;i++){
+    tem[i]=arr[i];}
     fort(arr,n);
-    if(arr[n]==tem[n]){
-        printf("Sorted\n");
-    }
-    else{
-        printf("Not Sorted\n");
+    int siu=0;
+    for(int i=0;i<n;i++){
+        if(arr[i]!=tem[i]){
+            printf("Not Sorted");
+        }
+        else{
+            printf("Sorted");
+        }
     }
 }
