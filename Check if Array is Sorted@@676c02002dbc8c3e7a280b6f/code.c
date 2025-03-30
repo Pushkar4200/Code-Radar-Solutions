@@ -30,7 +30,6 @@ void main(){
     if(siu=='0'){
         printf("Not Sorted\n");
     }
-    else
-}[
-    printf("Sorted\n");
-]
+    else{
+    printf("Sorted\n");}
+}
