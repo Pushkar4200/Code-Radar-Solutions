@@ -10,10 +10,15 @@ int main(){
     scanf("%d",&t);
     int tr;
     tr=(n-t);
-    for(int i=tr;i<n;i++){
+    t=t%n;
+    if(n>t){
+    for(int i=tr;i<tr;i++){
         printf("%d ",arr[i]);
     }
     for(int j=0;j<tr;j++){
         printf("%d ",arr[j]);
+    }}
+    else{
+        printf("")
     }
 }
