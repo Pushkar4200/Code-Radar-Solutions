@@ -8,7 +8,10 @@ int gt(int arr[],int n){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }}
-        }return -1;
+        }
+        else{
+            printf("-1");
+        }
     }
 }
 int pri(int arr[],int n){
