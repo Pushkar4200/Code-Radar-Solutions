@@ -11,7 +11,7 @@ int gt(int arr[],int n){
     }
 }
 int pri(int arr[],int n){
-    printf("%d\n",arr[n-1]);
+    printf("%d\n",arr[n-2]);
 }
 void main(){
     int n;
