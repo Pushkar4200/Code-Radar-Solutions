@@ -8,10 +8,9 @@ int main(){
     }
     int t;
     scanf("%d",&t);
+     t=t%n;
     int tr;
     tr=(n-t);
-    t=t%n;
-   
     for(int i=tr;i<n;i++){
         printf("%d ",arr[i]);
     }
