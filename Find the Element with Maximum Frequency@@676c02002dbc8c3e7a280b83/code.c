@@ -14,10 +14,10 @@ void main(){
             }
             if(count>mx){
                 mx=count;
-                uo=arr[j];
+                uo=arr[i];
             }
             else if(count==mx || arr[i]<uo) {
-            uo=arr[j];
+            uo=arr[i];
             }
             if(mx==1){
                 printf("-1");
