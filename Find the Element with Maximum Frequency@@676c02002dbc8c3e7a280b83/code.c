@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int n,mx,uo=poi;
+    int poi, n,mx,uo=poi;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
