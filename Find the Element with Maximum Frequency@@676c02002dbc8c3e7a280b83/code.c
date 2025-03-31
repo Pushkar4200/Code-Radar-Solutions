@@ -16,15 +16,7 @@ void main(){
                 mx=count;
                 uo=arr[i];
             }
-            else if(count==mx || arr[i]<uo) {
-            uo=arr[i];
+               
             }
-            if(mx==1){
-                printf("-1");
-            }
-            else{
-                printf("%d",uo);
-            }
-        }
+        } printf("%d",uo);
     }
-}
