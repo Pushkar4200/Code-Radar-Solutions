@@ -16,7 +16,7 @@ void main(){
                 mx=count;
                 uo=arr[j];
             }
-            elseif(count==mx || arr[i]<uo) {
+            else if(count==mx || arr[i]<uo) {
             uo=arr[j];
             }
             if(mx==1){
