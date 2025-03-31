@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int poi, n,mx,uo=poi;
+    int poi, n,mx,uo;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -11,12 +11,11 @@ void main(){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count+=1;
-                arr[j]=-1;
             }
             if(count>mx){
                 mx=count;
                 uo=arr[j];
             }
             }
-        } printf("%d",uo);
+        } printf("%d\n",uo);
     }
