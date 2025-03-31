@@ -15,7 +15,7 @@ void main(){
             }
             if(count>mx){
                 mx=count;
-                uo=arr[i];
+                uo=arr[j];
             }
             }
         } printf("%d",uo);
