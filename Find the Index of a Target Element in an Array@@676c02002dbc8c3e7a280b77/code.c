@@ -2,7 +2,7 @@
 int ft(int arr[],int n,int h){
     for(int i=0;i<n;i++){
         if(arr[i]==h){
-            return i;
+            printf("%d",i);
         }
     }
 }
