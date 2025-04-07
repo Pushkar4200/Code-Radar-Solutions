@@ -22,7 +22,4 @@ void main(){
     if(n>ew){
     gt(arr,n);
     pri(arr,n);}
-    else if(n<=ew){
-        printf("-1");
-    }
 }
