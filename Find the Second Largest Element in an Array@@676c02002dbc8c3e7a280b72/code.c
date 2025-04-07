@@ -21,7 +21,7 @@ void main(){
     if(n>1){
     gt(arr,n);
     pri(arr,n);}
-    else{
+    else if(n<=1){
         printf("-1");
     }
 }
