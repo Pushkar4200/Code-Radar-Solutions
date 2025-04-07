@@ -18,10 +18,11 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    if(n>1){
+    int ew=arr[n]/arr[0];
+    if(n>ew){
     gt(arr,n);
     pri(arr,n);}
-    else if(n<=1){
+    else if(n<=ew){
         printf("-1");
     }
 }
