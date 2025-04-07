@@ -1,6 +1,5 @@
 #include<stdio.h>
 int gt(int arr[],int n){
-    if(n>1){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
@@ -9,10 +8,6 @@ int gt(int arr[],int n){
                 arr[j+1]=temp;
             }}
         }}
-        else if(n<=1){
-            printf("-1");
-        }
-}
 void pri(int arr[],int n){
     printf("%d\n",arr[n-2]);
 }
@@ -23,6 +18,10 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
+    if(n>1){
     gt(arr,n);
-    pri(arr,n);
+    pri(arr,n);}
+    else{
+        printf("-1");
+    }
 }
