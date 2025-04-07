@@ -9,7 +9,7 @@ int gt(int arr[],int n){
                 arr[j+1]=temp;
             }}
         }}
-        else{
+        else if(n<=1){
             printf("-1");
         }
 }
