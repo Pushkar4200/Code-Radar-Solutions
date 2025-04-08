@@ -11,7 +11,7 @@ void main(){
             if(arr[j]>arr[j+1]){
                 printf("Sorted\n");
                 break;
-            }
-        }printf("Not Sorted\n");
+            }printf("Not Sorted\n");
+        }
     }
 }
