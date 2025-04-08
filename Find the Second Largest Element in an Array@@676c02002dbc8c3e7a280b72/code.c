@@ -18,8 +18,5 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int ew=arr[n]/arr[0];
-    if(n>ew){
     gt(arr,n);
     pri(arr,n);}
-}
