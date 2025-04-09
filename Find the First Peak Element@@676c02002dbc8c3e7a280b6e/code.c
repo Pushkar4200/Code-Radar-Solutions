@@ -13,8 +13,8 @@ int main(){
                 printf("%d",arr[i]);
                 break;
             }
-            if(i==(n-1)){
-                if(arr[i]>arr[i-1]){
+            if(i==(n-2)){
+                if(arr[i+1]>arr[i]){
                     fou=1;
                 printf("%d",arr[i]);
                 break;
