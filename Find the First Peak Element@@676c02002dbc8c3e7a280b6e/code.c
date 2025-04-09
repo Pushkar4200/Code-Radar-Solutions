@@ -7,14 +7,14 @@ int main(){
         scanf("%d\n",&arr[i]);
     }
     int fou=1;
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n-2;i++){
             if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
                 fou=1;
                 printf("%d",arr[i]);
                 break;
             }
-            if(i==(n-2)){
-                if(arr[i+1]>arr[i]){
+            if(i==(n-1)){
+                if(arr[i]>arr[i-1]){
                     fou=1;
                 printf("%d",arr[i]);
                 break;
