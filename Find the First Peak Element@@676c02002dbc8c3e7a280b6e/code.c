@@ -2,26 +2,29 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int a[n];
     for(int i=0;i<n;i++){
-        scanf("%d\n",&arr[i]);
+        scanf("%d\n",&a[i]);
     }
-    int fou=1;
-    for(int i=1;i<n-1;i++){
-            if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
-                fou=1;
-                printf("%d",arr[i]);
+    int k=0;
+    for(int s=1;s<n;s++){
+        if(s==(n-1)){
+            if(a[s]>a[s-1]){
+                printf("%d",a[s]);
+                k++;
                 break;
             }
-            if(i==(n-2)){
-                if(arr[i+1]>arr[i]){
-                    fou=1;
-                printf("%d",arr[i]);
+        }
+        else{
+            if(a[s]>a[s-1] && a[s]>a[s+1]){
+                printf("%d",a[s]);
+                k++;
                 break;
-                }
             }
+        }
     }
-    if(fou==0){
+    if(k==0){
         printf("-1");
     }
+return 0;
 }
