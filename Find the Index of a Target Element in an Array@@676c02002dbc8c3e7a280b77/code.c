@@ -1,7 +1,7 @@
 #include<stdio.h>
 int ft(int arr[],int n,int h){
     for(int i=0;i<n;i++){
-        if(n>h){
+        if(n>=h){
         if(arr[i]==h){
             printf("%d",i);
         }}
